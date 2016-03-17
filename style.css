@@ -1,4 +1,4 @@
-/*
+﻿/*
 
 	Design by Free CSS Templates
 	http://www.freecsstemplates.org
@@ -9,6 +9,14 @@
 	Released   : 20130222
 	
 */
+
+/*
+	modified by: Corey Taylor
+	date finish: 3/17/2016
+*/
+
+/* when it says modified, it mean I have change it */
+/* when it says added, it mean i have added it*/
 
 * {
 	margin: 0;
@@ -28,7 +36,10 @@ body {
 	font-size: 10.5pt;
 	line-height: 1.75em;
 	font-family: Arial, sans-serif;
-	background: #e1e4e5 url('images/bg.png');
+	background-color: #E4E4E4; /* modified */
+	color: #383939;
+}
+
 	color: #383939;
 }
 
@@ -97,7 +108,7 @@ ul {
 	/*text-transform:lowercase;*/
 }
 
-#resetLoginForm input[type="password"] {
+#resetLoginForm input[type=password] {
 	font-family: "PT Sans Narrow";
 	font-size: 14pt;
 }
@@ -121,12 +132,12 @@ ul {
 	-moz-border-radius:7px;	 
 }
 
-#loginForm input[type="password"] {
+#loginForm input[type=password] {
 	font-family: "PT Sans Narrow";
 	font-size: 14pt;
 }
 
-#loginForm input[type="text"] {
+#loginForm input[type=text] {
 	font-family: "PT Sans Narrow";
 	font-size: 14pt;
 }
@@ -216,7 +227,7 @@ ul {
 	float: left;
 }
 
-#changePassword input[type="password"] {
+#changePassword input[type=password] {
 	width: 50%;
 	font-size: 12pt;
 	font-family: "PT Sans Narrow";
@@ -258,15 +269,15 @@ ul {
 	/*text-transform: lowercase;*/
 	font-family: "PT Sans Narrow";
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 3px; /* modified */
 	padding-left: 30px;
 	padding-right: 30px;
 	margin-bottom: 20px;
-	border-radius:7px;
+	border-radius: 29px; /* modified */
 	-moz-border-radius:7px; /* Old Firefox */
 }
 
-#content input[type="text"] {
+#content input[type=text] {
 	width: 100%;
 	font-size: 12pt;
 	font-family: "PT Sans Narrow";
@@ -285,7 +296,7 @@ ul {
 	margin-bottom: 15px;
 }
 
-#content input[type="checkbox"] {
+#content input[type=checkbox] {
 	margin-left: 10px;
 
 }
@@ -566,7 +577,7 @@ ul {
 	height: 56px;
 	line-height: 56px;
 	margin: 28px 0 0 0;
-	background: #A73914;
+	background: #FF2D2D; /* modified */
 	font-size: 1.2em;
 	font-family: "PT Sans Narrow", sans-serif;
 	border-bottom: solid 1px #6f3018;
@@ -577,7 +588,7 @@ ul {
 
 #nav a {
 	text-decoration: none;
-	color: #ffffff;
+	color: #000000; /* modified */
 }
 
 #nav ul {
@@ -618,7 +629,7 @@ ul {
 	width: 202px;
 	float: left;
 	padding: 28px;
-	background: #ffffff;
+	background: #FFFFFF; /* modified */
 	color: #474747;
 	border-bottom: solid 1px #c0c0c0;
 }
@@ -667,3 +678,16 @@ ul {
 	padding-top: 0;
 	border-top: 0;
 }
+
+#addCustCare /* added */
+{
+	background: #FF2D2D;
+	color: #000000;
+}
+
+#aIssue /* added */
+{
+	background: #FF2D2D;
+	color: #000000;
+}
+
